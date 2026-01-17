@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class AverageOfThree {
     public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter first number: ");
             double a = sc.nextDouble();
 
@@ -19,4 +19,3 @@ public class AverageOfThree {
             System.out.println("Average = " + average);
         }
     }
-}
