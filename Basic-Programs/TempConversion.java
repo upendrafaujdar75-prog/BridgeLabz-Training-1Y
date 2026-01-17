@@ -7,4 +7,5 @@ public class TempConversion {
         System.out.println("Temp in Fahrenheit is :"+((a*9/5)+32));
     }
 }
+
  
