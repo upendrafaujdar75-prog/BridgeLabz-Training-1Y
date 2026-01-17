@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PowerCalculation {
     public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.print("Enter base: ");
             double base = sc.nextDouble();
 
@@ -15,4 +15,3 @@ public class PowerCalculation {
             System.out.println("Result = " + result);
         }
     }
-}
