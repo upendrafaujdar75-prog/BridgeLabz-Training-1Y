@@ -7,7 +7,5 @@ public class Add {
         System.out.println("Enter Second No.");
         int b=sc.nextInt();
         System.out.println("Sum is :"+(a+b));
-       
-    
     }
 }
