@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class KmtoMiles {
     public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter distance in kilometers: ");
             double km = sc.nextDouble();
 
@@ -12,4 +12,3 @@ public class KmtoMiles {
             System.out.println("Distance in miles: " + miles);
         }
     }
-}
